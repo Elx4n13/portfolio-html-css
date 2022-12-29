@@ -24,6 +24,10 @@
   height: fit-content;
   position: relative;
   width: 46%;
+  cursor: pointer;
+}
+.left-port .web-sites .web-site:hover {
+  opacity: 0.7;
 }
 .left-port .web-sites .web-site img {
   width: 100%;
