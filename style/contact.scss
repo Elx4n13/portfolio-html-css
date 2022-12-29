@@ -1,0 +1,58 @@
+.left-contact {
+    width: 68%;
+    background-color: white;
+    padding: 20px 20px;
+
+    .contact {
+        p {
+            color: rgb(7, 106, 80);
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+    }
+
+    hr {
+        margin: 15px 0;
+        height: 3px;
+        background-color: gray;
+    }
+    form{
+        label{
+            display: block;
+            color: gray;
+            font-size: 1.2rem;
+            margin-bottom: 3px;
+        }
+        input{
+            width: 100%;
+            height: 30px;
+            color:red;
+            border: 1px solid gray;
+            outline-color: gray;
+            border-radius: 5px;
+            padding: 5px;
+            &::placeholder{
+                color: gray;
+            }
+        }
+        textarea{
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid gray;
+            outline-color: gray;
+            padding: 5px;
+            &::placeholder{
+                color: gray;
+            }
+        }
+        button{
+            margin-top: 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: green;
+            color: white;
+            font-size: 1.3rem;
+        }
+    }
+}

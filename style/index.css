@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  background-color: rgb(183, 175, 166);
+  min-height: 100vh;
+}
+.container .header {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+}
+.container .header .nav {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container .header .nav .title {
+  background-color: rgb(14, 161, 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .header .nav .title h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 30px;
+  color: white;
+}
+.container .header .nav .pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  color: rgb(139, 139, 139);
+}
+.container .header .nav .pages a:hover {
+  color: green;
+  font-weight: bold;
+}
+.container .content {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.container .content .left {
+  width: 68%;
+  background-color: white;
+  padding: 20px 20px;
+}
+.container .content .left .about p {
+  color: rgb(7, 106, 80);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.container .content .left hr {
+  margin: 15px 0;
+  height: 3px;
+  background-color: gray;
+}
+.container .content .left .info img {
+  width: 150px;
+  float: left;
+  margin-right: 10px;
+}
+.container .content .left .info p {
+  line-height: 1.4rem;
+  text-align: justify;
+}
+.container .content .right {
+  width: 28%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+  padding: 20px;
+}
+.container .content .right .connection .connect p {
+  color: rgb(7, 106, 80);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.container .content .right .connection hr {
+  margin: 15px 0;
+  height: 3px;
+  background-color: gray;
+}
+.container .content .right .connection .icons {
+  display: flex;
+  justify-content: space-between;
+}
+.container .content .right .connection .icons .git {
+  width: 29%;
+}
+.container .content .right .connection .icons .git img {
+  width: 100%;
+}
+.container .content .right .connection .icons .git img:hover {
+  scale: 1.2;
+}/*# sourceMappingURL=index.css.map */

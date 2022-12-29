@@ -1,0 +1,48 @@
+.left-port {
+  width: 68%;
+  background-color: white;
+  padding: 20px 20px;
+}
+.left-port .portfolio p {
+  color: rgb(7, 106, 80);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.left-port hr {
+  margin: 15px 0;
+  height: 3px;
+  background-color: gray;
+}
+.left-port .web-sites {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.left-port .web-sites .web-site {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  width: 46%;
+}
+.left-port .web-sites .web-site img {
+  width: 100%;
+}
+.left-port .web-sites .web-site p {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.left-port .web-sites .web-site:nth-child(2n-1) {
+  margin-right: 45px;
+  margin-bottom: 45px;
+}/*# sourceMappingURL=portfolio.css.map */

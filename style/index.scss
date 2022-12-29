@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    background-color: rgb(183, 175, 166);
+    min-height: 100vh;
+    .header{
+        background-color: white;
+        height: 60px;
+        width: 100%;
+        .nav{
+            width: 95%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            .title{
+                background-color: rgb(14, 161, 112);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    font-size: 2rem;
+                    font-weight: bold;
+                    margin: 0 30px;
+                    color: white;
+                }
+            }
+            .pages{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 30%;
+                color: rgb(139, 139, 139);
+                a{&:hover{
+                    color: green;
+                    font-weight: bold;
+                }}
+            }
+        }
+    }
+    .content{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        .left{
+            width: 68%;
+            background-color: white;
+            padding: 20px 20px;
+            .about{
+                p{
+                    color: rgb(7, 106, 80);
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                }
+            }
+            hr{
+                margin: 15px 0;
+                height: 3px;
+                background-color: gray;
+            }
+            .info{
+                img{
+                    width: 150px;
+                    float: left;
+                    margin-right: 10px;
+                }
+                p{
+                    line-height: 1.4rem;
+                    text-align: justify;
+                }
+            }
+        }
+        .right{
+            width: 28%;
+            height: fit-content;
+            background-color: white;
+            padding: 20px;
+            .connection{
+                .connect{
+                    p{
+                        color: rgb(7, 106, 80);
+                        font-size: 1.5rem;
+                        font-weight: 800;  
+                    }
+                }
+                hr{
+                    margin: 15px 0;
+                    height: 3px;
+                    background-color: gray;
+                }
+                .icons{
+                    display: flex;
+                    justify-content: space-between;
+                    .git{
+                        width: 29%;
+                        img{
+                            width: 100%;
+                            &:hover{
+                                scale: 1.2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
